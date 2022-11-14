@@ -20,8 +20,7 @@ function verPontos(){
                     Tony: ${tony} <br>
                     Brener: ${brener} <br>
                     Ademiro: ${ademiro} <br>
+                    <br><br>
                 </p>
-                <p><button onclick="verPontos()" id="verPontosPlanilha">Somar Pontos</button></p>
-
     `
 }

@@ -6,7 +6,7 @@
 }
 ::-webkit-scrollbar-thumb
 {
-    background-color: white;
+    background-color: var(--cor5);
 }
 
 *{margin: 0; padding: 0; color: white; font-family: var(--fonte1);}
@@ -106,7 +106,8 @@ main
 
 div.rodada, div.pontos
 {
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     transition: 0.3s;
 }
 
@@ -158,6 +159,11 @@ button#verPontosPlanilha:hover
 @media (max-width: 800px)
 {
     table{font-size: 10px;}
+
+    div.rodada
+    {
+        margin-bottom: 50px;
+    }
 
     div.options
     {
