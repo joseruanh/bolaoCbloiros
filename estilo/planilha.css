@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+::-webkit-scrollbar
+{
+    width: 1px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: white;
+}
+
+*{margin: 0; padding: 0; color: white; font-family: var(--fonte1);}
+
+:root
+{
+    --cor1: #023059;
+    --cor2: #011526;
+    --cor3: #035AA6;
+    --cor4: #0367A6;
+    --cor5: #91BBF2;
+    --fonte1: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: var(--cor2);
+}
+
+header
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte1);
+    font-weight: bolder;
+    padding: 10px 0px 10px 0px;
+}
+
+main
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.rodada
+{
+    margin-bottom: 100px;
+}
+
+table
+{
+    width: 100%;
+    border: 1px solid var(--cor5);
+    border-collapse: collapse;
+}
+tr.nomes
+{
+    font-weight: bolder;
+}
+
+td.rodadaTit
+{
+    background-color: var(--cor4);
+}
+
+td
+{
+    width: 150px;
+    border: 1px solid var(--cor5);
+    padding: 3px;
+    text-align: center;
+}

@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*{margin: 0; padding: 0; color: white;}
+::-webkit-scrollbar
+{
+    width: 1px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: white;
+}
+
+*{margin: 0; padding: 0; color: white; font-family: var(--fonte1);}
 
 :root
 {
