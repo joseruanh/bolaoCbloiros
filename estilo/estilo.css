@@ -26,6 +26,10 @@ body
     background: var(--cor2);
 }
 
+a {
+    text-decoration: none;
+}
+
 header
 {
     max-width: 100%;
