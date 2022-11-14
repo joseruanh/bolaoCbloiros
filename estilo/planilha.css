@@ -41,14 +41,18 @@ main
 {
     width: 90%;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-div.rodada
+div.rodada, div.pontos
 {
     margin-bottom: 100px;
+    transition: 0.3s;
+}
+
+div.rodada:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 table
@@ -56,6 +60,7 @@ table
     width: 100%;
     border: 1px solid var(--cor5);
     border-collapse: collapse;
+    font-size: 13px;
 }
 tr.nomes
 {
@@ -87,4 +92,9 @@ button#verPontosPlanilha
 button#verPontosPlanilha:hover
 {
     background-color: var(--cor4);
+}
+
+@media (max-width: 800px)
+{
+    table{font-size: 10px;}
 }

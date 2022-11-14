@@ -11,7 +11,7 @@ function verPontos(){
     let pontos = window.document.getElementById('pontos');
     pontos.innerHTML = `
     
-    <p style="font-weight: bolder;">Total de pontos: <br></p>
+    <p style="font-weight: bolder;">Total de pontos <br></p>
                 <p> Ruanh: ${ruanh} <br>
                     Jean: ${jean} <br>
                     Pickles: ${pickles} <br>
