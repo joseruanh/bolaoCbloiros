@@ -192,10 +192,22 @@ button#verPontosPlanilha:hover
 {
     table{font-size: 10px;}
 
+    div.rolamento
+{
+    top: 86%;
+    left: 90%;
+}
+
     div.rodada
     {
         margin-bottom: 50px;
     }
+
+    div.rodada:hover
+{
+    transform: scale(1.0);
+    cursor: pointer;
+}
 
     div.options
     {
