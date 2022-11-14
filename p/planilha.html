@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../estilo/planilha.css">
     <title>Planilha</title>
     <link rel="shortcut icon" href="../images/ico.jpg" type="image/x-icon">
+    <script src="planilha.js"></script>
 </head>
 <body>
     <header>
@@ -359,9 +360,9 @@
                 </table>
             </div>
 
-            <div class="rodada">
-                <p>Total de pontos: <br>
-                    Ruanh <br>
+            <div class="rodada" id="pontos">
+                <p style="font-weight: bolder;">Total de pontos: <br></p>
+                   <p> Ruanh <br>
                     Jean <br>
                     Pickles <br>
                     Relâmpago <br>
@@ -370,6 +371,7 @@
                     Brener <br>
                     Ademiro <br>
                 </p>
+                <p><button onclick="verPontos()" id="verPontosPlanilha">Somar Pontos</button></p>
             </div>
 
         </div>

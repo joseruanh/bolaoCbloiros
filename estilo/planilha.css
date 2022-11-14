@@ -74,3 +74,17 @@ td
     padding: 3px;
     text-align: center;
 }
+
+button#verPontosPlanilha
+{
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid var(--cor3);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+button#verPontosPlanilha:hover
+{
+    background-color: var(--cor4);
+}
