@@ -192,16 +192,3 @@ button#verPontosPlanilha:hover
         transform: scale(1.1) translate(-5%, 10%);
     }
 }
-
-@media (min-width: 801px) and (max-width: 1135px)
-{
-    div.options
-    {
-        width: 170px;
-        height: 100px;
-    }
-    div.options > p
-    {
-        top: 75%;
-    }
-}
