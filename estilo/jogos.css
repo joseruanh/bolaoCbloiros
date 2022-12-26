@@ -162,8 +162,9 @@ div.jogo:hover
 }
 div.jogo > p
 {
-    margin-left: 5px;
+    padding-left: 3px;
     font-size: 12px;
+    background-color: var(--cor4);
 }
 
 div.partidas
