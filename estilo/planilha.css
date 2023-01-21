@@ -189,6 +189,27 @@ button#verPontosPlanilha:hover
     background-color: var(--cor4);
 }
 
+button.verpontosss
+{
+    background-color: var(--cor3);
+    padding: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+button.verpontosss:hover
+{
+    background-color: var(--cor5);
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 855px)
 {
     table{font-size: 10px;}
