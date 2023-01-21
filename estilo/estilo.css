@@ -120,3 +120,8 @@ p
     font-family: 'Poppins', 'sans serif';
     font-weight: bolder;
 }
+
+iframe
+{
+    border-radius: 10px;
+}
