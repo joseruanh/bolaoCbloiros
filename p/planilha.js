@@ -15,7 +15,7 @@ function verPontos(){
                 <p> Ruanh: ${ruanh} <br>
                     Jean: ${jean} <br>
                     Pickles: ${pickles} <br>
-                    Relâmpago: ${relampago} <br>
+                    Marcos: ${relampago} <br>
                     Kennyd: ${kennyd} <br>
                     Tony: ${tony} <br>
                     Brener: ${brener} <br>
