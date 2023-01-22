@@ -184,6 +184,16 @@ footer
     height: 200px;
 }
 
+div.jogoloss
+{
+    background-color: rgb(94, 0, 0);
+}
+
+div.jogowin
+{
+    background-color: rgb(0, 85, 0);
+}
+
 
 
 
