@@ -202,6 +202,11 @@ button.verpontosss:hover
     background-color: var(--cor5);
 }
 
+td.win
+{
+    color: green;
+}
+
 
 
 
