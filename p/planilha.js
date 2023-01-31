@@ -1,26 +1,26 @@
     function verPontos(){
-    let ruanh = 4;
-    let jean = 5;
-    let pickles = 4;
-    let relampago = 5;
-    let kennyd = 4;
-    let tony = 5;
-    let brener = 4;
-    let ademiro = 5;
+    let ruanh = 8;
+    let jean = 12;
+    let pickles = 9;
+    let relampago = 8;
+    let kennyd = 5;
+    let tony = 7;
+    let brener = 10;
+    let ademiro = 8;
 
     let pontos = window.document.getElementById('pontos');
     pontos.innerHTML = `
     
     <p style="font-weight: bolder;">Total de pontos <br></p>
                 <p> 
-                    Marcos: ${relampago} <br>
                     Jean: ${jean} <br>
+                    Brener: ${brener} <br>  
+                    Pickles: ${pickles} <br>  
+                    Marcos: ${relampago} <br>                   
                     Ademiro: ${ademiro} <br>
-                    Tony: ${tony} <br>
                     Ruanh: ${ruanh} <br>
+                    Tony: ${tony} <br>
                     Kennyd: ${kennyd} <br>
-                    Pickles: ${pickles} <br>
-                    Brener: ${brener} <br>
                     <br><br>
                 </p>
     `
