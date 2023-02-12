@@ -19,7 +19,8 @@
                     Ruanh: ${ruanh} <br>
                     Brener: ${brener} <br>  
                     Marcos: ${relampago} <br>
-                    Tony: ${tony} <br>
+                    Tony: ${tony} <br>                    
+                    Victor: 6 <br>
                     Kennyd: ${kennyd} <br>
                     <br><br>
                 </p>
