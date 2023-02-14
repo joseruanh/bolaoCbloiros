@@ -1,12 +1,12 @@
     function verPontos(){
-    let ruanh = 18;
-    let jean = 20;
-    let pickles = 17;
-    let relampago = 15;
+    let ruanh = 21;
+    let jean = 22;
+    let pickles = 20;
+    let relampago = 17;
     let kennyd = 5;
-    let tony = 11;
-    let brener = 15;
-    let ademiro = 19;
+    let tony = 15;
+    let brener = 19;
+    let ademiro = 21;
 
     let pontos = window.document.getElementById('pontos');
     pontos.innerHTML = `
