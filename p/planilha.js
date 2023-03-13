@@ -1,12 +1,12 @@
     function verPontos(){
-    let ruanh = 38;
-    let jean = 35;
-    let pickles = 35;
-    let relampago = 31;
+    let ruanh = 49;
+    let jean = 43;
+    let pickles = 45;
+    let relampago = 41;
     let kennyd = 5;
-    let tony = 29;
-    let brener = 32;
-    let ademiro = 32;
+    let tony = 40;
+    let brener = 37;
+    let ademiro = 41;
 
     let pontos = window.document.getElementById('pontos');
     pontos.innerHTML = `
@@ -20,10 +20,13 @@
                     Brener: ${brener} <br>  
                     Marcos: ${relampago} <br>
                     Tony: ${tony} <br>
-                    Pedro: 19 <br>                    
-                    Victor: 16 <br>
+                    Pedro: 25 <br>                    
+                    Victor: 19 <br>
                     Kennyd: ${kennyd} <br>
 
+                    <br><br>
+
+                    obs: os pontos são calculados automaticamente
                     <br><br>
                 </p>
     `
